@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project-specific
+data/raw/
+data/vectorstore/
+data/cache/
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models (downloaded weights)
+models/
+*.bin
+*.safetensors
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db

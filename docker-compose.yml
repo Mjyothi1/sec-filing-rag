@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: sec-rag-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    command: uvicorn app.api:app --host 0.0.0.0 --port 8000
+
+  ui:
+    build: .
+    container_name: sec-rag-ui
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    command: streamlit run app/ui.py --server.address=0.0.0.0 --server.port=8501
+    depends_on:
+      - api

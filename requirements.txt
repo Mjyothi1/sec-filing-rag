@@ -1,0 +1,50 @@
+# ============================================================================
+# SEC Filing RAG — Dependencies (Gemini-only, all FREE)
+# Compatible versions verified for Python 3.10–3.12 on Windows / macOS / Linux
+# ============================================================================
+
+# ----- Core LangChain stack (compatible 0.2.x line) -----
+langchain>=0.2.0,<0.3.0
+langchain-core>=0.2.0,<0.3.0
+langchain-community>=0.2.0,<0.3.0
+langchain-text-splitters>=0.2.0,<0.3.0
+
+# ----- Gemini (Google) — FREE API, no credit card needed -----
+# Get a free key at https://aistudio.google.com/app/apikey
+langchain-google-genai>=1.0.0,<2.0.0
+google-generativeai>=0.5.0
+
+# ----- Document parsing (free) -----
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+pypdf>=4.0.0
+
+# ----- Embeddings & vector store (free, local) -----
+sentence-transformers>=2.7.0
+faiss-cpu>=1.7.4
+
+# ----- API server (free) -----
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-multipart>=0.0.9
+
+# ----- UI (free) -----
+streamlit>=1.34.0
+
+# ----- Utilities -----
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.0
+numpy>=1.26.0
+requests>=2.31.0
+
+# ----- Testing -----
+pytest>=8.0.0
+httpx>=0.27.0
+
+# ----- For Kaggle dataset integration -----
+# The Kaggle CSV is bundled in data/kaggle/sec_filings.csv — pandas reads it
+# directly. No kaggle CLI needed.
+pandas>=2.0.0

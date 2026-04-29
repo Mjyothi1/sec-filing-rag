@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What are the main risk factors for the company?",
+    "expected_source": "10K",
+    "expected_keywords": ["risk", "factors"]
+  },
+  {
+    "question": "How did revenue change year over year?",
+    "expected_source": "10K",
+    "expected_keywords": ["revenue", "increase"]
+  },
+  {
+    "question": "What does the company say about supply chain risks?",
+    "expected_source": "10K",
+    "expected_keywords": ["supply", "chain"]
+  },
+  {
+    "question": "Summarize the legal proceedings.",
+    "expected_source": "10K",
+    "expected_keywords": ["legal", "proceedings"]
+  },
+  {
+    "question": "What is the company's strategy regarding artificial intelligence?",
+    "expected_source": "10K",
+    "expected_keywords": ["AI", "intelligence"]
+  },
+  {
+    "question": "What are the company's primary sources of revenue?",
+    "expected_source": "10K",
+    "expected_keywords": ["revenue", "products"]
+  },
+  {
+    "question": "Describe the company's research and development activities.",
+    "expected_source": "10K",
+    "expected_keywords": ["research", "development"]
+  },
+  {
+    "question": "What is the management's outlook for the next fiscal year?",
+    "expected_source": "10K",
+    "expected_keywords": ["outlook", "forward"]
+  }
+]
