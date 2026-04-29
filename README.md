@@ -1,6 +1,6 @@
 # SEC Filing Summarizer & Q&A (RAG)
 
-> **AI Hackathon Project — Problem Statement F7**
+> **SEC_FILING_RAG**
 > Query 10‑K / 10‑Q SEC filings and answer investor questions with
 > source citations using Retrieval-Augmented Generation (RAG).
 >
@@ -47,7 +47,7 @@
 
 ## Problem Statement
 
-**F7) SEC Filing Summarizer & Q&A (RAG)**
+** SEC Filing Summarizer & Q&A (RAG)**
 
 - **Problem:** Query 10‑K/10‑Q filings and answer investor questions with source citations.
 - **Sample data:** SEC Filings dataset (Kaggle / EDGAR).
